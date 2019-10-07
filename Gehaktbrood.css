@@ -11,6 +11,7 @@
 	border-radius: 4px;
 }
 h1 {
+	margin: 30px;
 	border-bottom: solid 1px #000 ;
 	padding-bottom: 20px;
 }
@@ -23,4 +24,18 @@ h2{
 }
 img{
 	margin: 20px 0px;
+}
+nav ul li {
+	text-decoration: none;
+	list-style: none;
+	margin: 30px;
+	
+}
+}
+.headerlist li {
+	list-style: none;
+}
+
+.navigatie {
+	margin: 30px;
 }
