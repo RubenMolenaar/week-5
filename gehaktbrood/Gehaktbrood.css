@@ -1,5 +1,8 @@
 .container {
 	padding: 20px 70px;
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
 }
 
 .tip {
@@ -14,6 +17,8 @@ h1 {
 	margin: 30px;
 	border-bottom: solid 1px #000 ;
 	padding-bottom: 20px;
+	margin-left: 0;
+	font-size: 36px;
 }
 
 li {
@@ -28,14 +33,32 @@ img{
 nav ul li {
 	text-decoration: none;
 	list-style: none;
-	margin: 30px;
+	margin-left: 10px;
+	display: inline-block;
+	border: solid 1px #000;
+	padding: 15px;
+	text-decoration: none;
 	
 }
 }
 .headerlist li {
 	list-style: none;
+	font-family:  'Roboto', sans-serif;
+	text-decoration: none;
 }
 
 .navigatie {
 	margin: 30px;
 }
+html {
+	font-family:  'Roboto', sans-serif;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;	
+}
+
+.f24 {
+	font-size: 24px;
+}
+
